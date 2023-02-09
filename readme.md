@@ -56,19 +56,19 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |式神属性成长|Growth Stats (Scaling)|Object
 |式神基础属性.物理伤害|Base Attack Damage|Number|87
 |式神属性成长.物理伤害|Attack Damage Scaling|Number|4.5|+X/Lvl
-|式神基础属性.攻击速度|Base Attack Speed Coefficient (?)|Number|0.68
+|式神基础属性.攻击速度|Base Attack Speed Coefficient|Number|0.68
 |式神基础属性.攻速加成|Base Attack Speed Scaling|Number|0.29
 ||Actual Base Attack Speed|Number|0.87|atks/s|0.68*(1+0.29)
-|式神属性成长.攻速加成|Base Attack Speed Scaling|Number|0.0007|+X/Lvl
+|式神属性成长.攻速加成|Base Attack Speed Growth Scaling|Number|0.0007|+X/Lvl
 |式神基础属性.魔法上限|Base Mana Point|Number|300|mp or pts
 |式神属性成长.魔法上限|Mana Point Scaling|Number|40|mp/Lvl or pts/Lvl
 |式神基础属性.魔法回复|Base Mana Regeneration|Number|10|mp/s or pts/s
 |式神基础属性.魔抗|Base Magic Armor|Number|64|
 |式神属性成长.魔抗|Magic Armor Scaling|Number|3|
 |式神基础属性.生命值|Base Health Point|Number|865|hp
-|式神属性成长.生命值|Base Health Point|Number|163|+Xhp/Lvl
+|式神属性成长.生命值|Base Health Point Scaling|Number|163|+Xhp/Lvl
 |式神基础属性.生命恢复|Base HP Regeneration|Number|14|+Xhp/s
-|式神属性成长.生命恢复|Base HP Regeneration|Number|0.82|+Xhp/s/Lvl
+|式神属性成长.生命恢复|Base HP Regeneration Scaling|Number|0.82|+Xhp/s/Lvl
 |式神基础属性.护甲|Base Physical Armor|Number|54|
 |式神属性成长.护甲|Physical Armor Scaling|Number|6.2|
 |式神基础属性.移动速度|Base Movement Speed|Number|33.5|yards/m(?)|335
@@ -131,7 +131,7 @@ Included are all the shop items along with a few that don't usually show up insi
 |装备主动技能|Active Ability|String|"#OActive - Fluorescence#n: Restores 40#c0095cc(+30*Current Level) #n  HP and 30#c0095cc(+15*Current Level) #n  MP for nearby allied shikigami over the next 4 seconds. (CD: 60 seconds)."|
 |装备被动技能|Passive Abilities|Array|"#ONether Arrow#n: Basic attacks deal 30#c0095cc(+2\*Current Level) #n  extra magic damage to target. Every time after using 2 basic attacks or abilities, the next basic attack will trigger a bonus basic attack effect."|
 |装备价格|Item Price|Number|1650
-|装备额外描述|Unique Description (mostly jungler items)|String|"#r#ODemonbane#n: Upgrade the Subdue ability to Ice Subdue."
+|装备额外描述|Extra Item Description (mostly jungler items)|String|"#r#ODemonbane#n: Upgrade the Subdue ability to Ice Subdue."
 
 ## Onmyodos and Spells
 I haven't used any of these yet.
